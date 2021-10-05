@@ -1,0 +1,96 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETCoreApp,Version=v2.1": {}
+  },
+  "libraries": {},
+  "projectFileDependencyGroups": {
+    ".NETCoreApp,Version=v2.1": [
+      "Microsoft.IdentityModel.Tokens >= 5.2.4",
+      "Microsoft.NETCore.App >= 2.1.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\gabri\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\repositorios_github\\dot_net\\Alura.WebAPI\\Alura.WebAPI.Seguranca\\Alura.WebAPI.Seguranca.csproj",
+      "projectName": "Alura.WebAPI.Seguranca",
+      "projectPath": "E:\\repositorios_github\\dot_net\\Alura.WebAPI\\Alura.WebAPI.Seguranca\\Alura.WebAPI.Seguranca.csproj",
+      "packagesPath": "C:\\Users\\gabri\\.nuget\\packages\\",
+      "outputPath": "E:\\repositorios_github\\dot_net\\Alura.WebAPI\\Alura.WebAPI.Seguranca\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\gabri\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "netcoreapp2.1"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {}
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "netcoreapp2.1": {
+        "targetAlias": "netcoreapp2.1",
+        "dependencies": {
+          "Microsoft.IdentityModel.Tokens": {
+            "target": "Package",
+            "version": "[5.2.4, )"
+          },
+          "Microsoft.NETCore.App": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[2.1.0, )",
+            "autoReferenced": true
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.401\\RuntimeIdentifierGraph.json"
+      }
+    }
+  },
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Não é possível encontrar o pacote Microsoft.IdentityModel.Tokens. Não existe nenhum pacote com esta ID nas origens: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.IdentityModel.Tokens",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Não é possível encontrar o pacote Microsoft.NETCore.App com a versão (>= 2.1.0)\r\n  - Encontradas 1 versões em Microsoft Visual Studio Offline Packages [Versão mais próxima: 2.0.0]",
+      "libraryId": "Microsoft.NETCore.App",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    }
+  ]
+}

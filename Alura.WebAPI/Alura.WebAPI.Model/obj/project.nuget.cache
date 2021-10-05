@@ -1,0 +1,27 @@
+{
+  "version": 2,
+  "dgSpecHash": "dEjKMOwdyDQPK+o+OnZrhxvPDNzCJC7AjZ59Xfqjg5/twwTxpa8n/qdQIcTFXu1+Z5lVuC+eId5Vlcwv9HffaQ==",
+  "success": false,
+  "projectFilePath": "E:\\repositorios_github\\dot_net\\Alura.WebAPI\\Alura.WebAPI.Model\\Alura.WebAPI.Model.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1101",
+      "level": "Error",
+      "message": "Não é possível encontrar o pacote Microsoft.AspNetCore.Http.Features. Não existe nenhum pacote com esta ID nas origens: Microsoft Visual Studio Offline Packages",
+      "libraryId": "Microsoft.AspNetCore.Http.Features",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    },
+    {
+      "code": "NU1102",
+      "level": "Error",
+      "message": "Não é possível encontrar o pacote Microsoft.NETCore.App com a versão (>= 2.1.0)\r\n  - Encontradas 1 versões em Microsoft Visual Studio Offline Packages [Versão mais próxima: 2.0.0]",
+      "libraryId": "Microsoft.NETCore.App",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v2.1"
+      ]
+    }
+  ]
+}
